@@ -37,6 +37,10 @@ width: 3em;
    cursor: pointer;
 }
 
+.mobile-nav{
+    display: none;
+}
+
 .nav-list{
     display: flex;
     text-decoration: none;
@@ -132,12 +136,20 @@ footer{
 /*about*/
 
 @media only screen and (max-width: 768px) {
-
-
-    body{
-        /* overflow-x: hidden; */
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
     }
 
+    header{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 0em;
+        position: relative;
+        z-index: 999;
+    }
+    
     .hero-head{
         font-family: 'Red Hat Mono', monospace;
         line-height: 50px;
@@ -152,16 +164,36 @@ footer{
         width: 180%;
     }
 
-    nav{
+    .desktop-nav{
         display: none;
     }
+
+    .mobile-nav{
+        display: none;
+        justify-content: center;
+        background-color: #c5c5c5;
+        width: 100%;
+    }
+
+    .nav-list{
+    padding: 20px;
+    }
+
+    .nav-item{
+        margin-left: 0px;
+        margin-top: 0px;
+        padding: 10px;
+        color: #f2f2f2;
+        -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
+    }
+
     .nav-btn{
     display: none;
     }
 
     #profilepic{
-        width: 3em;
-        margin-left: -250px;
+      display: none;
         }
     footer{
     justify-content: center;
