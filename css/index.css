@@ -142,6 +142,10 @@ footer{
         box-sizing: border-box;
     }
 
+    .wrapper{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
     header{
         display: flex;
         justify-content: space-around;
@@ -192,7 +196,7 @@ footer{
     }
 
     #profilepic{
-      display: block;
+      display: none;
         }
     footer{
     justify-content: center;
