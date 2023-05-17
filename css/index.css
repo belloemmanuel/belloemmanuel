@@ -85,6 +85,8 @@ main{
 
 .hero{
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .hero-head{
@@ -92,8 +94,9 @@ main{
     line-height: 8rem;
     color: #352A9B;
     font-size: 7rem;
-    letter-spacing: -8px;
+     letter-spacing: -8px;
     margin-top: 30px;
+    text-align: center; 
 }
 
 .hero-head-animate{
@@ -143,16 +146,14 @@ footer{
     }
 
     .wrapper{
-        overflow-x: hidden;
-        overflow-y: hidden;
+      
     }
     .mobile-header{
         display: flex;
         justify-content: space-between;
-        padding-top: 0em;
         position: relative;
         z-index: 999;
-        padding: 50px;
+        padding: 30px 30px 0px 30px;
     }
 
     .night-icon{
@@ -163,18 +164,22 @@ footer{
         display: none;
     }
     
-    .hero-head{
-        font-family: 'Red Hat Mono', monospace;
-        line-height: 50px;
-        color: #352A9B;
-        font-size: 2.5rem;
-        letter-spacing: -5px;
-        margin: 0px 50px 40px 50px;
+    .hero{
+        padding: 0px 50px 50px 50px;
     }
     
+ 
+.hero-head{
+    font-family: 'Red Hat Mono', monospace;
+    line-height: 45px;
+    color: #352A9B;
+    font-size: 40px;
+     letter-spacing: -3px;
+    text-align: center; 
+}
 
   #rocketpicture{
-     width: 50em;
+     width: 35em;
     }
 
     footer{
@@ -182,7 +187,7 @@ footer{
     position: relative;
     width: 100%;
     display: flex;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .footer-content{
