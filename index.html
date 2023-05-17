@@ -7,6 +7,7 @@
     <title>Bello Emmanuel</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/hover.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -20,29 +21,34 @@
                     <li class="nav-item"><a href="about.html">Works</a></li>
                 </ul>
             </nav>
-
             <button class=".hvr-push nav-btn">Get in Touch</button>
         </header>
         <header class="mobile-header">
             <img src="img/profilepic.png" alt="profilepicture" id="profilepic">
             <img src="img/night.png" alt="darkmode" class="night-icon">  
-            <i class="fas fa-2x fa-bars" class="menu"></i>
+            <i class="fas fa-2x fa-bars menu"></i>
         </header>
         <main>
-            <div class="hero">
+            <div class="hero" data-aos="fade-up" data-aos-duration="1500">
                 <h1 class="hero-head">Bringing <br> Ideas.to(<span>life</span>)
                 </h1>
             </div>
-            <img src="img/rocket.png" class="hvr-bob" alt="rocketpicture" id="rocketpicture">
+            <img src="img/rocket.png" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="2000" id="rocketpicture">
             <footer>
                 <div class="footer-content">
                     <p>&copy Bello Emmanuel</p>
                     <p>Frontend Developer</p>
                 </div>
             </footer>
-        </main>
-        
+        </main>     
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 <script src="js/index.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>

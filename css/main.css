@@ -4,6 +4,12 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    overflow: hidden;
+}
+
+h1, h2, h3, p{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
 }
 
 /*index*/
@@ -13,6 +19,16 @@
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
+}
+
+.overlay{
+        position:absolute;
+        font-size: 300px;
+       
+        letter-spacing: -10px;
+        right: 0;
+        top: 0;
+        color: rgba(19, 19, 34, 0.475);
 }
 
 .desktop-header{
@@ -66,48 +82,96 @@ width: 3em;
     color: #65605E;
 }
 
-a:hover{
+.nav-item a:focus{
     color: #FB844B;
+    cursor: pointer;
+  }
+
+.nav-item a:hover{
+    color: #FB844B;
+    cursor: pointer;
 }
+
+.nav-item a:active {
+    color: #FB844B;
+    cursor: pointer;
+  }
+
+
 
 span{
     color: #FB844B;
 }
 
-main{
+.main-container1{
+display: flex;
+justify-content: space-evenly;
+margin-top: 8%;
+margin-bottom: 5%;
+}
+
+.main-container2{
     display: flex;
-    align-items: center;
-    text-align: center;
-    position: relative;
+    justify-content: space-evenly;
+    }
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* margin-left: -20%; */
+}
+
+.main-content p{
+    margin-bottom: 30px;
+}
+
+.main-content h2{
+    margin-bottom: 30px;
+}
+
+#guy{
+   width: 68%; 
+   position: absolute;  
+   margin-top: -100px;
+   right: 0;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar h1{
+    color: rgba(255,255,255,0.1);
+    -webkit-text-stroke: 3px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+}
+.skills{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
     flex-direction: column;
 }
 
-.hero{
-    margin-top: 20px;
+.skills ul{
     display: flex;
-    justify-content: center;
+    color:white;
+    text-decoration: none;
+    list-style: none;
 }
 
-.hero-head{
-    font-family: 'Red Hat Mono', monospace;
-    line-height: 8rem;
-    color: #fff;
-    font-size: 7rem;
-     letter-spacing: -8px;
-    margin-top: 30px;
-    text-align: center; 
-}
-
-.hero-head-animate{
-    font-family: 'Red Hat Mono', monospace;
-    line-height: 8rem;
-    color: #352A9B;
-    font-size: 7rem;
-    letter-spacing: -8px;
-}
-
-#rocketpicture{
-    width: 50em;
+.skills ul li{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(30px);
+  color: rgba(255,255,255,0.8);
+  cursor: pointer;
 }
 
 footer{
@@ -126,7 +190,7 @@ footer{
     font-family: 'Red Hat Mono', monospace;
     font-size: 12px;
     color: #65605E;
-    margin-top: -200px;
+    margin-top: 0px;
 }
 
 /*index*/
@@ -142,10 +206,6 @@ footer{
         padding: 0px;
         margin: 0px;
         box-sizing: border-box;
-    }
-
-    html{
-        overflow: hidden;
     }
 
     .wrapper{
@@ -171,23 +231,6 @@ footer{
         display: none;
     }
     
-    .hero{
-        padding: 0px 50px 50px 50px;
-    }
-    
- 
-.hero-head{
-    font-family: 'Red Hat Mono', monospace;
-    line-height: 45px;
-    color: #352A9B;
-    font-size: 40px;
-     letter-spacing: -4px;
-    text-align: center; 
-}
-
-  #rocketpicture{
-     width: 35em;
-    }
 
     footer{
     justify-content: center;
