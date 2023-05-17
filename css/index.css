@@ -16,7 +16,7 @@
     overflow-y: hidden;
 }
 
-header{
+.desktop-header{
     display: flex;
     justify-content: space-around;
     padding-top: 2em;
@@ -37,7 +37,7 @@ width: 3em;
    cursor: pointer;
 }
 
-.mobile-nav{
+.mobile-header{
     display: none;
 }
 
@@ -146,12 +146,21 @@ footer{
         overflow-x: hidden;
         overflow-y: hidden;
     }
-    header{
+    .mobile-header{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         padding-top: 0em;
         position: relative;
         z-index: 999;
+        padding: 50px;
+    }
+
+    .night-icon{
+   display: none;
+    }
+
+    .desktop-header{
+        display: none;
     }
     
     .hero-head{
@@ -160,44 +169,14 @@ footer{
         color: #352A9B;
         font-size: 2.5rem;
         letter-spacing: -5px;
-        margin: 50px 50px 0px 50px;
+        margin: 0px 50px 40px 50px;
     }
     
-    #rocketpicture{
-        width: 180%;
+
+  #rocketpicture{
+     width: 50em;
     }
 
-    .desktop-nav{
-        display: none;
-    }
-
-    .mobile-nav{
-        display: none;
-        justify-content: center;
-        background-color: #c5c5c5;
-        width: 100%;
-    }
-
-    .nav-list{
-    padding: 20px;
-    }
-
-    .nav-item{
-        margin-left: 0px;
-        margin-top: 0px;
-        padding: 10px;
-        color: #f2f2f2;
-        -webkit-backdrop-filter: blur(8px);
-        backdrop-filter: blur(8px);
-    }
-
-    .nav-btn{
-    display: none;
-    }
-
-    #profilepic{
-      display: none;
-        }
     footer{
     justify-content: center;
     position: relative;

@@ -7,10 +7,11 @@
     <title>Bello Emmanuel</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/hover.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <div class="wrapper">
-        <header>
+        <header class="desktop-header">
             <img src="img/profilepic.png" alt="profilepicture" id="profilepic">
             <nav class="desktop-nav">
                 <ul class="nav-list">
@@ -19,16 +20,13 @@
                     <li class="nav-item"><a href="about.html">Works</a></li>
                 </ul>
             </nav>
-            <nav class="mobile-nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="index.html">Home</a></li>
-                    <li class="nav-item"><a href="about.html">About</a></li>
-                    <li class="nav-item"><a href="about.html">Works</a></li>
-                    <li class="nav-item"><a href="about.html">Contact</a></li>
-                </ul>
-            </nav>
-            <!-- <img src="img/night.png" alt="darkmode" class="night-icon"> -->
+
             <button class=".hvr-push nav-btn">Get in Touch</button>
+        </header>
+        <header class="mobile-header">
+            <img src="img/profilepic.png" alt="profilepicture" id="profilepic">
+            <img src="img/night.png" alt="darkmode" class="night-icon">  
+            <i class="fas fa-2x fa-bars" class="menu"></i>
         </header>
         <main>
             <div class="hero">
@@ -47,4 +45,5 @@
     </div>
 </body>
 <script src="js/index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
 </html>
