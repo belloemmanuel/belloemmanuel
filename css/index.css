@@ -145,8 +145,13 @@ footer{
         box-sizing: border-box;
     }
 
+    body{
+        height: 100vh;
+    }
+
     .wrapper{
       overflow-y: hidden !important;
+      height: 100vh;
     }
     .mobile-header{
         display: flex;
