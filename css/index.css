@@ -147,11 +147,11 @@ footer{
     }
 
     html{
-      overflow: hidden;
+      
     }
 
     .wrapper{
-
+        position: relative;
     }
 
     .mobile-header{
@@ -201,11 +201,10 @@ footer{
     backdrop-filter: blur(30px);
     color: rgba(255,255,255,0.8);
     cursor: pointer;
-    right: 0;
+    height: auto;
     width: 70%;
-    height: 100vh;
+    right: 0;
     z-index: 1000;
-    
 }
 
 .navfade-in{
