@@ -147,7 +147,7 @@ footer{
     }
 
     html{
-      
+      overflow: hidden;
     }
 
     .wrapper{
