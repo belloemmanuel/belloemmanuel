@@ -203,6 +203,7 @@ footer{
     cursor: pointer;
     right: 0;
     width: 70%;
+    height: 100vh;
     z-index: 1000;
     
 }
