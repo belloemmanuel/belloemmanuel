@@ -207,6 +207,7 @@ footer{
 
     .wrapper{
         overflow:visible;
+        position: relative;
     }
     .mobile-header{
         display: flex;
@@ -240,8 +241,12 @@ footer{
         right: 0;
         top: 0;
         color: rgba(19, 19, 34, 0.475);
-        display: hidden;
+        display: none;
 }
+
+.profilepic{
+    width: 1em;
+    }
 
 .main-container1{
     display: flex;

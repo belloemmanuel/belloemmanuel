@@ -28,7 +28,7 @@ h1, h2, h3, p{
     z-index: 999;
 }
 
-#profilepic{
+.profilepic{
 width: 3em;
 }
 
@@ -138,13 +138,6 @@ footer{
     margin-top: -200px;
 }
 
-/*index*/
-
-/*about*/
-
-
-
-/*about*/
 
 @media only screen and (max-width: 768px) {
     *{
@@ -160,11 +153,10 @@ footer{
     .wrapper{
 
     }
+
     .mobile-header{
         display: flex;
         justify-content: space-between;
-        position: fixed;
-        z-index: 999;
         padding: 10px 30px 10px 30px;
         -webkit-text-stroke: 3px solid rgba(255,255,255,0.1);
         backdrop-filter: blur(30px);
@@ -172,45 +164,15 @@ footer{
         width: 100%;
     }
 
-    .night-icon{
+    /* .night-icon{
    display: none;
-    }
-
-    .mobile-nav{
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        background-color: rgba(11, 6, 29, 0.593);
-  border: 1px solid rgba(255,255,255,0.1);
-  backdrop-filter: blur(50px);
-  color: rgba(255,255,255,0.8);
-  cursor: pointer;
-        height: 100vh;
-        width: 70%;
-        z-index: 9999;
-        right: 0;
-       }
-       .mobile-nav ul {
-        display: flex;
-        flex-direction: column;
-        margin-top: 20px;
-       }
-       .mobile-nav ul li{
-        padding-top: 20px;
-        padding-left: 20px;
-        color: #cccac9;
-       }
-
-       #closenav{
-       display: flex;
-       justify-content: end;
-       padding: 20px 30px 0px 50px;
-       }
+    } */
 
    .menu{
     margin-top: 8px;
   color: #cccac9;
-   }
+   } 
+
     .desktop-header{
         display: none;
     }
@@ -220,7 +182,7 @@ footer{
         margin-top: 100px;
     }
     
- 
+
 .hero-head{
     font-family: 'Red Hat Mono', monospace;
     line-height: 45px;
@@ -228,6 +190,54 @@ footer{
     font-size: 40px;
     letter-spacing: -4px;
     text-align: center; 
+}
+
+.mobile-nav{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    background-color: rgba(23, 23, 62, 0.811);
+    border: 1px solid rgba(255, 255, 255, 0.211);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    cursor: pointer;
+    right: 0;
+    width: 70%;
+    z-index: 1000;
+    
+}
+
+.navfade-in{
+    animation: fadeInRight 1s ease-in-out;
+}
+
+@keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(300px);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.mobile-nav ul{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 100px;
+}
+
+.mobile-nav ul li{
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+#closenav{
+    display: flex;
+    justify-content: end;
+    margin-right: 35px;
+    margin-top: 15px;
 }
 
   #rocketpicture{

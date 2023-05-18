@@ -1,18 +1,16 @@
-let closeNav = document.getElementById('closenav');
+let mProfilePic = document.getElementById('mProfile-pic');
 let mobileNav = document.getElementById('mobile-nav')
-let menuEl = document.getElementById('menu')
+let mMenu = document.getElementById('mMenu')
+let closeNav = document.getElementById('closenav')
 
-let close = () =>{
-  mobileNav.style.display = 'none'
+const open = () =>{
+    mobileNav.style.display = "flex"
 }
 
-// let open = () =>{
-//   mobileNav.style.display = 'block'
-//   console.log('menu')
-// }
+const close = ()=>{
+    mobileNav.style.display = "none"
+    mobileNav.classList = 'mobile-nav navfade-in'
+}
 
-menuEl.addEventListener('click', open)
-// closeNav.addEventListener('click', close)
-
-
-
+mMenu.addEventListener('click', open)
+closeNav.addEventListener('click', close)
