@@ -28,9 +28,10 @@ h1, h2, h3, p{
     z-index: 999;
 }
 
-.profilepic{
-width: 3em;
-}
+#profilepic{
+    width: 3em;
+    }
+    
 
 .night-icon{
     position: absolute;
