@@ -171,19 +171,24 @@ footer{
     margin-top: 5px;
    }
 
+   .menu{
+    margin-top: 8px;
+  color: #cccac9;
+   }
     .desktop-header{
         display: none;
     }
     
     .hero{
         padding: 0px 50px 50px 50px;
+        margin-top: 100px;
     }
     
  
 .hero-head{
     font-family: 'Red Hat Mono', monospace;
     line-height: 45px;
-    color: #352A9B;
+    color: white;
     font-size: 40px;
     letter-spacing: -4px;
     text-align: center; 
