@@ -6,6 +6,10 @@
     padding: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 h1, h2, h3{
     font-family: 'Poppins', sans-serif;
     color: #fff;
@@ -271,6 +275,10 @@ margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 768px) {
+
+    html {
+        scroll-behavior: smooth;
+      }
 
     .desktop-header{
         display: none;
