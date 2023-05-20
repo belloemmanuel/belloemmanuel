@@ -1,0 +1,45 @@
+span {
+    animation: glow-in 0.99s both;
+    font-size: 6rem;
+  }
+
+@keyframes glow-in {
+  from {
+    opacity: 0;
+  }
+  65% {
+    opacity: 0.5;
+    text-shadow: 0 0 25px white;
+  }
+  75% {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1.0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  span {
+    animation: glow-in 0.99s both;
+    font-size: 3rem;
+    line-height: 0.05px;
+  }
+
+@keyframes glow-in {
+  from {
+    opacity: 0;
+  }
+  65% {
+    opacity: 0.5;
+    text-shadow: 0 0 25px white;
+  }
+  75% {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1.0;
+  }
+}
+}
+
