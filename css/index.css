@@ -265,9 +265,19 @@ margin-top: 40px;
     font-family: 'Poppins', sans-serif;}
 
 .titles{
-font-size: 24px;
+font-size: 16px;
 margin-bottom: 20px;
+color: aqua;
+font-family: 'Red Hat Mono', monospace;
 }
+
+.titles::before {
+    content: "|";
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+    margin-right: 5px;
+  }
 
 .work-item-buttons{
     margin-left: 20px;
