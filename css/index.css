@@ -398,8 +398,36 @@ margin-top: 20px;
        .profilepic{
         width: 3em;
         }
+
     .mobile-nav{
-        display: none;
+        display:none;
+        justify-content: end;
+        flex-direction: column;
+        z-index: 1000;
+        position: fixed;
+        background-color: #0a192f99;
+        backdrop-filter: blur(40px);
+        width: 100%;      
+    }
+
+    #closenav{
+        display: flex;
+       justify-content: end;
+       margin-right: 9%;
+       margin-top: 15px;
+        right: 0;
+    }
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+        z-index: 1000;
+        padding: 20px;
+        padding-bottom: 50px;
+    }
+
+    .mobile-nav a{
+        font-size: 20px;
+        border-bottom:1px solid #23416e;
     }
 
    .hero h2{
