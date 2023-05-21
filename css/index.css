@@ -233,6 +233,7 @@ margin-top: 40px;
 .works-card{
     display: flex;
     gap: 20px;
+    margin-bottom: 80px;
 }
 
 .work{
@@ -240,7 +241,6 @@ margin-top: 40px;
     flex-direction: column;
     background-color: #0f1f37;
     border-radius: 20px;
-    margin-bottom: 80px;
 }
 
 .work img{
