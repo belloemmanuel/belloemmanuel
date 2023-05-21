@@ -23,11 +23,19 @@
             </nav>     
             <button class=".hvr-push nav-btn">Get in Touch</button>
         </header>
-        <header class="mobile-header">
-            <img src="img/profilepic.png" alt="profilepicture" id="profilepic">
-            <img src="img/night.png" alt="darkmode" class="night-icon">  
-            <i class="fas fa-2x fa-bars menu"></i>
-        </header>
+        <div id="mobile-nav" class="mobile-nav navfade-in">
+            <h2 id="closenav">X</h2>
+            <ul class="nav-list">
+                <p class="nav-item"><a href="index.html">Home</a></p>
+                <p class="nav-item"><a href="about.html">About</a></p>
+                <p class="nav-item"><a href="works.html">Works</a></p>
+                <p class="nav-item"><a href="#getinTouch.html">Get in Touch</a></p>
+            </ul>
+        </div>
+        <div class="mobile-header">
+            <img src="img/profilepic.png" class="profilepic" id="mProfile-pic">
+            <div id="mMenu"><i class="fas fa-2x fa-bars menu"></i></div>       
+        </div> 
     </div>
     <div class="aboutsection">
         <div class="sidebar" data-aos="fade-up" data-aos-duration="1000">

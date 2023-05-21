@@ -23,6 +23,17 @@ body{
     background-color: #0a192f;
 }
 
+body::-webkit-scrollbar {
+    width: 4px;               /* width of the entire scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    background:#23416e;        /* color of the tracking area */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: aqua;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+  }
+
 /*index*/
 .wrapper{
     /* background-color: #0a192f; */
@@ -85,6 +96,12 @@ body{
     padding: 12px 25px 12px 25px;
     background-color: #fff;
     border-radius: 25px;
+    cursor: pointer;
+}
+
+.nav-btn:hover{
+    background-color: aqua;
+    border: 0px none;
 }
 
 .desktop-nav{
