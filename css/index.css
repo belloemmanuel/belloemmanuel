@@ -199,8 +199,8 @@ margin-top: 40px;
     display: flex;
     font-family: 'Poppins', sans-serif;
     margin-top: 10px;
-    /* flex-direction: column; */
     margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .skills ul{
@@ -211,7 +211,7 @@ margin-top: 40px;
     list-style: none;
 }
 
-.skills ul li{
+.skills p{
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
