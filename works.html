@@ -5,59 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bello Emmanuel</title>
-    <link rel="stylesheet" href="./css/works.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/hover.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/fonteffect.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <div class="wrapper">
-        <header class="desktop-header">
+        <div class="desktop-header">
             <img src="img/profilepic.png" alt="profilepicture" id="profilepic">
             <nav class="desktop-nav">
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="index.html">Home</a></li>
-                    <li class="nav-item"><a href="about.html">About</a></li>
-                    <li class="nav-item"><a href="works.html">Works</a></li>
+                    <p class="nav-item"><a href="index.html">Home</a></p>
+                    <p class="nav-item"><a href="about.html">About</a></p>
+                    <p class="nav-item"><a href="works.html">Works</a></p>
                 </ul>
-            </nav>     
+            </nav>
             <button class=".hvr-push nav-btn">Get in Touch</button>
-        </header>
-        <header class="mobile-header">
-            <img src="img/profilepic.png" alt="profilepicture" id="profilepic">
-            <img src="img/night.png" alt="darkmode" class="night-icon">  
-            <i class="fas fa-2x fa-bars menu"></i>
-        </header>
-            <div class="main-container1">
-                <h1 class="overlay" data-aos="fade-left"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine"
-                data-aos-duration="3000">Works</h1>
-               
-                <div class="main-content" data-aos="fade-up" data-aos-duration="1500">
-                   <h2>A restaurant Food Ordering Website, fully responsive and allows users to order easily</h2>
-                    <p data-aos="fade-up" data-aos-duration="1500">I thrive in collaborative environments, where I 
-                        combine my technical expertise with a keen eye 
-                        for detail to  deliver pixel-perfect interfaces.
-                        With a passion for user-centered design</p> 
-                    <div class="work-footer">
-                        <button class="view-site">View Site</button>
-                        <img src="img/github.png">
-                    </div>                  
-                </div>         
+        </div> 
+        <div id="mobile-nav" class="mobile-nav navfade-in">
+            <h2 id="closenav">X</h2>
+            <ul class="nav-list">
+                <p class="nav-item"><a href="index.html">Home</a></p>
+                <p class="nav-item"><a href="about.html">About</a></p>
+                <p class="nav-item"><a href="about.html">Works</a></p>
+                <p class="nav-item"><a href="about.html">Get in Touch</a></p>
+            </ul>
+        </div>
+        <div class="mobile-header">
+            <img src="img/profilepic.png" class="profilepic" id="mProfile-pic">
+            <div id="mMenu"><i class="fas fa-2x fa-bars menu"></i></div>       
+        </div> 
+        <main>
+            <div class="works" style="margin-top: 140px;">
+                <h1 class="titles" data-aos="fade-up" data-aos-duration="1000">Selected Projects</h1>
+                <div class="works-card">
+                    <div class="work" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="img/work1.png">
+                        <div class="work-item">
+                            <p>I thrive in collaborative environments, where I 
+                                combine my technical expertise with a keen</p> 
+                                <div class="work-item-buttons">
+                                    <button class="view-site">View Site</button> 
+                                    <button class="view-site">View Code</button> 
+                                </div> 
+                        </div>                                   
+                     </div> 
+                     <div class="work" data-aos="fade-up" data-aos-duration="2000">
+                        <img src="img/work2 (1).png">
+                        <div class="work-item">
+                            <p>I thrive in collaborative environments, where I 
+                                combine my technical expertise with a keen</p> 
+                                <div class="work-item-buttons">
+                                    <button class="view-site">View Site</button> 
+                                    <button class="view-site">View Code</button> 
+                                </div> 
+                        </div>                                   
+                     </div>
+                     <div class="work" data-aos="fade-up" data-aos-duration="3000">
+                        <img src="img/work2 (2).png">
+                        <div class="work-item">
+                            <p>I thrive in collaborative environments, where I 
+                                combine my technical expertise with a keen
+                            </p> 
+                            <div class="work-item-buttons">
+                                <button class="view-site">View Site</button> 
+                                <button class="view-site">View Code</button> 
+                            </div>                     
+                        </div>                                   
+                     </div>
+                     <!-- <h1 class="view-more">View my other Side Projects >></h1> -->
+                </div>             
+            </div>         
+        </main> 
+        <div class="footer">
+            <div class="div-content">
+                <h2>Get in Touch</h2>
+                <p>Hi there, if you will be looking into connecting with me, we can connect and follow each-other on Twitter I post about Tech and Frontend and my lifestyle, we can collaborate on Github or you can shoot me a Mail</p>
             </div>
-            <!-- <footer>
-                <div class="footer-content">
-                    <p>&copy Bello Emmanuel</p>
-                    <p>Frontend Developer</p>
-                </div>
-            </footer> -->
+        </div> 
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
 </body>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script src="js/fonteffect.js"></script>
 <script src="js/index.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
 </html>
