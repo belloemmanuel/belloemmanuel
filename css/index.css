@@ -87,6 +87,10 @@ body{
     border-radius: 25px;
 }
 
+.desktop-nav{
+    margin-left: 60px;
+}
+
  a{
     text-decoration: none;
     list-style: none;
@@ -95,7 +99,7 @@ body{
 }
 
 a:hover{
-    color: #FB844B;
+   color: aqua;
 }
 
 .hero{
@@ -111,7 +115,7 @@ a:hover{
 main{
     display: flex;
     align-items: center;
-    text-align: center;
+    text-align: center; 
     /* position: relative; */
     flex-direction: column;
 }
@@ -264,7 +268,30 @@ margin-top: 40px;
     color: #d0d1df;
     margin-left: 0px;
     margin-bottom: 20px;
-    font-family: 'Poppins', sans-serif;}
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    }
+
+    .view-code{
+    border: 1px solid #d0d1df;
+    background-color: #0f1f37;
+    padding: 10px 30px 10px 30px;
+    color: #d0d1df;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}  
+
+.view-code:hover{
+    background-color: aqua;
+    color: #0a192f;
+}
+
+.view-site:hover{
+    background-color: aqua;
+    color: #0a192f;
+}
 
 .titles{
 font-size: 16px;
@@ -297,7 +324,7 @@ margin-top: 20px;
     background-color: #0f1f37;
     border-radius: 20px;
     width: 100%;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
 .footer .div-content{
@@ -315,6 +342,21 @@ margin-top: 20px;
 .footer p{
     width: 50%;
     text-align: center;
+    margin-bottom: 30px;
+}
+
+.social-icons{
+    color: white;
+    padding: 10px;
+}
+
+.social-icons a{
+    padding: 8px;
+}
+
+
+.social-icons i:hover{
+    color: aqua;
 }
 
 @media only screen and (max-width: 768px) {
@@ -396,6 +438,7 @@ color: #8892b0;
     width: 80%; 
     margin-top: -40px;
     right: 0;
+    margin-bottom: -80px;
  }
 
  .hero{
