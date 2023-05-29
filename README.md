@@ -16,7 +16,6 @@
 <a href="https://twitter.com/devolabello" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="devolabello" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/belloemmanuelola" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="belloemmanuelola" height="30" width="40" /></a>
 <a href="https://instagram.com/bello_emmanuel_o" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="bello_emmanuel_o" height="30" width="40" /></a>
-<a href="https://www.behance.net/belloemmanuel1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/behance.svg" alt="belloemmanuel1" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
