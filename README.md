@@ -9,7 +9,7 @@
 
 - 📫 How to reach me **belloemmanuel02@gmail.com**
 
-- ⚡ Fun fact **Coding is Art**
+- ⚡ Fun fact - **Coding is Art**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
