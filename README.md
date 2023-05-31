@@ -1,4 +1,4 @@
-![MasterHead](https://miro.medium.com/v2/resize:fit:828/1*bjxU4SlQTQSmK3Z-UOk0Bg.gif)
+
 <h1 align="left">Hi 👋, I'm Bello Emmanuel</h1>
 <p> A passionate Web Designer & Frontend Developer Experienced in designing and developing responsive and dynamic websites and web apps. Proficient in HTML5, CSS3, JavaScript, and contemporary libraries and frameworks.<p/>
 <img align="right" alt="Coding" width="450" src="https://cdn.dribbble.com/users/1059583/screenshots/4171367/media/34e69eb61a7bd8dea1c957a8b82605a7.gif">
