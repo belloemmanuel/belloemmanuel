@@ -45,6 +45,14 @@ body::-webkit-scrollbar {
     align-items: center;
 }
 
+.fa-brands{
+    color: white;
+}
+
+#contactfooter{
+    margin-top: 10%;
+}
+
 .desktop-header{
     display: flex;
     justify-content: space-around;
@@ -369,7 +377,6 @@ margin-top: 20px;
 }
 
 .social-icons{
-    color: white;
     padding: 10px;
 }
 
@@ -560,5 +567,9 @@ padding: 20px;
 
 #contact-footer{
     margin-top: 45%;
+}
+
+#contactfooter{
+  margin-top: 30%;  
 }
 }
